@@ -1,2 +1,2 @@
 # First-repository
-This is a simple respo
+This is my FED assignment 1 project
