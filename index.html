@@ -4,13 +4,56 @@
         <meta name="viewport" content="width=devicewidth, intial-scale=1">
         <title>Newjeans</title>
         <style>
-            
+            #mainwrapper header {
+                background-color: lightgray;
+                overflow: auto;
+                font-family:'Times New Roman', Times, serif;
+                font-style: normal;
+                font-weight: 400;               
+                }
+            #mainwrapper header #logo1 {
+                width: 16%;
+                float: left;
+                padding-left: 1%;
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+            #mainwrapper header #logo2 {
+                width: 14%;
+                float: left;
+                padding-right: 1%;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                margin-left: 200px;
+            }
+            #mainwrapper header nav {
+                text-align: left;
+                padding-top: 50px;
+                width: 40%;
+                float: left;
+                color: gray;   
+                font-size: 25px;
+            } 
+            #mainwrapper input{
+                width: 160px;
+                height: 50px;
+                float: right;
+                margin-top: 40px;
+                margin-right: 50px;
+            }
+            header nav a {
+                margin: 30px;
+            }       
         </style>
     </head>
     <body>
-        <p>
-            <img src="https://shop.newjeans-official.us/cdn/shop/files/NJ_D2C_Design_Draft-04_x300.png?v=1686686762" width="200px" height="100px">
-            Member's Profile(button) Music(button) Merchandise(button)
-        </p>
+        <div id="mainwrapper">
+            <header>
+                <div id="logo1"><img src="https://shop.newjeans-official.us/cdn/shop/files/NJ_D2C_Design_Draft-04_x300.png?v=1686686762" width="200px" height="100px"></div>
+                <nav> <a href="#" title="Profile">Profile</a> <a href="#" title="Music">Music</a> <a href="#" title="Merchandise">Merchandise</a> </nav>
+                <div id="logo2"><img src="https://thumb.pann.com/tc_480/https://fimg5.pann.com/new/download.jsp?FileID=64977545" width="200px" height="100px"></div>
+                <input type="button" value="Account">
+            </header>
+        </div>
     </body>
 </html>
