@@ -59,6 +59,10 @@
                 font-size: 20px;
                 margin-right: 400px;
             }
+            #socialmedia-box {
+                width: 200px;
+                height: 315px;
+            }
             #line {
                 margin-top: 50px;
             } 
@@ -72,7 +76,7 @@
                 padding-right: 2%;
                 background-color: darkgrey;
                 margin-left: 10px;
-                padding-bottom: 350px;
+                padding-bottom: 20px;
                 margin-top: 10px;
             }
             #sidebar #albumpic{
@@ -89,7 +93,10 @@
             .container {
                 display: flex;
                 align-items: center;
-                justify-content: left;
+                justify-content: center;
+            }
+            .container iframe {
+                margin-right: 10px;
             }
         </style>
     </head>
@@ -108,12 +115,15 @@
                 <div id="sidebar">
                     <div id="description">Latest albums</div>
                     <div id="albumpic"><img src="https://kpopdistrict.co.uk/cdn/shop/files/IMG_4188.jpg?v=1687976076" width="300px" height="300px"></div>
+                    <div id="albumpic"><img src="https://albumnest.com/storage/2023/06/product.38646.1688003969847551.jpg.webp" width="300px" height="300px"></div>
                 </div>
             </div>
+            <p>Introduction or text is put in this area</p>
+            <div class="container">
+                <iframe width="550px" height="315px" src="https://www.youtube.com/embed/kcelgrGY1h8?si=K8Nit_XqOjVsDTzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div id="concert-box">Upcoming concerts</div>
+            </div>
         </section>
-        <p>Introduction or text is put in this area</p>
-        <iframe width="550px" height="315px" src="https://www.youtube.com/embed/kcelgrGY1h8?si=K8Nit_XqOjVsDTzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div id="concert-box">Upcoming concerts</div>
         <hr id="line">
         <div id="info"><a>About us</a> <a>Copyright information</a> <a>Privacy policy</a></div>
     </body>
