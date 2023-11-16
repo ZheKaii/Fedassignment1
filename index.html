@@ -47,15 +47,17 @@
             }
             #pic1 {
                 margin-top: 10px;
+                width: 1100px;
+                height: 700px;
             } 
             #concert-box {
                 width: 540px;
                 height: 315px;
                 border: 2px solid black;
                 float: right;
-                margin-right: 400px;
                 text-align: center;
                 font-size: 20px;
+                margin-right: 400px;
             }
             #line {
                 margin-top: 50px;
@@ -63,7 +65,32 @@
             #info a{
                 margin: 180px;
                 font-size: 20px;
+            }
+            #sidebar {
+                width: 340px;
+                padding-left: 2%;
+                padding-right: 2%;
+                background-color: darkgrey;
+                margin-left: 10px;
+                padding-bottom: 350px;
+                margin-top: 10px;
+            }
+            #sidebar #albumpic{
+                width: 100%;
+                margin-top: 23px;
+                float: center;
+                overflow: auto;
+                margin-left: 15px;
             }     
+            #sidebar #description{
+                text-align: center;
+                font-size: 20px;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+            }
         </style>
     </head>
     <body>
@@ -76,12 +103,18 @@
             </header>
         </div>
         <section>
-            <div id="pic1"><img src="https://static.wikia.nocookie.net/kpop/images/3/33/NewJeans_Get_Up_group_concept_photo_13.png/revision/latest?cb=20230722054537" width="1100px" height="700px"></div>
-            <p>Introduction or text is put in this area</p>
-            <iframe width="550px" height="315px" src="https://www.youtube.com/embed/kcelgrGY1h8?si=K8Nit_XqOjVsDTzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div id="concert-box">Upcoming concerts</div>
-            <hr id="line">
-            <div id="info"><a>About us</a> <a>Copyright information</a> <a>Privacy policy</a></div>
+            <div class="container">
+                <div id="pic1"><img src="https://static.wikia.nocookie.net/kpop/images/3/33/NewJeans_Get_Up_group_concept_photo_13.png/revision/latest?cb=20230722054537" width="1100px" height="700px"></div>
+                <div id="sidebar">
+                    <div id="description">Latest albums</div>
+                    <div id="albumpic"><img src="https://kpopdistrict.co.uk/cdn/shop/files/IMG_4188.jpg?v=1687976076" width="300px" height="300px"></div>
+                </div>
+            </div>
         </section>
+        <p>Introduction or text is put in this area</p>
+        <iframe width="550px" height="315px" src="https://www.youtube.com/embed/kcelgrGY1h8?si=K8Nit_XqOjVsDTzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="concert-box">Upcoming concerts</div>
+        <hr id="line">
+        <div id="info"><a>About us</a> <a>Copyright information</a> <a>Privacy policy</a></div>
     </body>
 </html>
