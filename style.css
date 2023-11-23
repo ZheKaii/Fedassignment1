@@ -108,8 +108,13 @@ header nav a {
     width: 100px;
     font-size: 0px;
 }
+#facebook {
+    height: 100px;
+    width: 100px;
+    font-size: 0px;
+}
 ul.icon li {
     display: inline-block;
-    margin: 80px;
+    margin: 40px;
     margin-right: 100px;
 }
