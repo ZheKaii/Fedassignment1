@@ -70,7 +70,26 @@ header nav a {
     float: center;
     overflow: auto;
     margin-left: 15px;
+}
+#profilebg {
+    width: 410px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: darkgrey;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-inline: 65px;
 }     
+#profilebg #memberpic {
+    width: 100%;
+    float: center;
+    overflow: auto;
+    padding-top: 20px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
 #sidebar #description{
     text-align: center;
     font-size: 20px;
