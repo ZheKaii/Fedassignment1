@@ -54,7 +54,7 @@ header nav a {
 #memberbox1 {
     width: 410px;
     height: 450px;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
@@ -63,7 +63,7 @@ header nav a {
 #memberbox2 {
     width: 410px;
     height: 450px;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
@@ -72,11 +72,29 @@ header nav a {
 #memberbox3 {
     width: 410px;
     height: 450px;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
     margin-left: 130px;
+}
+#memberbox4 {
+    width: 430px;
+    height: 450px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+#memberbox5 {
+    width: 430px;
+    height: 450px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 140px;
 }
 #info a{
     margin: 180px;
@@ -107,11 +125,18 @@ header nav a {
     margin-top: 10px;
     margin-inline: 65px;
 }     
-#profilebg #memberpic {
+#profilebg #memberpic1 {
     width: 100%;
     float: center;
     overflow: auto;
     padding-top: 20px;
+}
+#profilebg #memberpic2 {
+    width: 100%;
+    float: center;
+    overflow: auto;
+    padding-top: 20px;
+    margin-left: 15px;
 }
 .row {
     display: flex;
