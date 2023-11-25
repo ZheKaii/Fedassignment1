@@ -51,6 +51,33 @@ header nav a {
     text-align: center;
     font-size: 20px;
 }
+#memberbox1 {
+    width: 410px;
+    height: 450px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#memberbox2 {
+    width: 410px;
+    height: 450px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+#memberbox3 {
+    width: 410px;
+    height: 450px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
 #info a{
     margin: 180px;
     font-size: 20px;
@@ -98,6 +125,10 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container2 {
+    display: flex;
+    align-items: center;
 }
 .container iframe {
     margin-right: 10px;
