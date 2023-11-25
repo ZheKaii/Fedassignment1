@@ -143,6 +143,21 @@ header nav a {
     overflow: auto;
     margin-left: 15px;
 }
+#merchandisebg {
+    width: 410px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: darkgrey;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-inline: 55px;
+}    
+#merchandisebg #pics {
+    width: 100%;
+    float: center;
+    overflow: auto;
+    padding-top: 20px;
+} 
 #musicbg {
     width: 410px;
     padding-left: 1%;
@@ -250,4 +265,8 @@ ul.icon li {
 #title {
     text-align: center;
     font-size: 40px;
+}
+#spacingtitles {
+    word-spacing: 400px;
+    text-align: center;
 }
