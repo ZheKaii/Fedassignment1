@@ -211,6 +211,10 @@ header nav a {
     display: flex;
     justify-content: center;
 }
+.row2 {
+    display: flex;
+    justify-content: center;
+}
 .thumbnails {
     display: flex;
     flex-direction: column;
@@ -303,4 +307,17 @@ ul.icon li {
 #spacingtitles {
     word-spacing: 370px;
     text-align: center;
+    margin-left: 30px;
+}
+.row2 input {
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.row2 a {
+    margin-inline: 45px;
+}
+hr {
+    margin-top: 50px;
 }
