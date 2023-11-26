@@ -233,6 +233,7 @@ header nav a {
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
     background-color: darkgrey;
+    margin-inline: 40px;
 }
 .slides > div {
     scroll-snap-align: start;
@@ -300,6 +301,6 @@ ul.icon li {
     font-size: 40px;
 }
 #spacingtitles {
-    word-spacing: 400px;
+    word-spacing: 370px;
     text-align: center;
 }
