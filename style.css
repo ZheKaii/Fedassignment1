@@ -262,6 +262,14 @@ header nav a {
     display: flex;
     align-items: center;
 }
+.container3 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(black,black), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 .container iframe {
     margin-right: 10px;
 }
