@@ -60,11 +60,3 @@ signupBtn.onclick = function(){
     signupBtn.classList.remove("disable");
     signinBtn.classList.add("disable");
 }
-
-function notification1() {
-    alert("You have signed up!");
-}
-
-function notification2() {
-    alert("You have signed in!");
-}

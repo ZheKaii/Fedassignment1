@@ -359,6 +359,12 @@ form p a {
     font-size: 14px;
     color: red;
 }
+#submit-error {
+    color: red;
+    position: absolute;
+    bottom: 30px;
+    left: 230px;
+}
 .container iframe {
     margin-right: 10px;
 }
