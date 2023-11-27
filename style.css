@@ -331,6 +331,10 @@ form p a {
     display: flex;
     justify-content: space-between;
 }
+.btn-field a {
+    text-decoration: none;
+    color:#eaeaea;
+}
 .btn-field button {
     flex-basis: 48%;
     background: #3c00a0;
@@ -354,12 +358,6 @@ form p a {
     right: 70px;
     font-size: 14px;
     color: red;
-}
-#submit-error {
-    color: red;
-    position: absolute;
-    bottom: 30px;
-    left: 230px;
 }
 .container iframe {
     margin-right: 10px;

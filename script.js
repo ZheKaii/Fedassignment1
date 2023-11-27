@@ -5,7 +5,6 @@ let title1 = document.getElementById("title1");
 let nameError = document.getElementById('name-error');
 let emailError = document.getElementById('email-error');
 let passwordError = document.getElementById('password-error');
-let submitError = document.getElementById('submit-error');
 
 function validateName() {
     var name = document.getElementById('name').value;
@@ -27,8 +26,8 @@ function validateEmail() {
         emailError.innerHTML = 'Email is required';
         return false;
     }
-    if (!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-        emailError.innerHTML = 'Email Invalid'
+    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+        emailError.innerHTML = 'Email Invalid';
         return false;
     }
     emailError.innerHTML = '';
@@ -49,15 +48,6 @@ function validatePassword() {
     return true;
 }
 
-function validateForm() {
-    if (!validateName() || !validateEmail() || !validatePassword()) {
-        submitError.style.display = 'block';
-        submitError.innerHTML = 'Please fix error';
-        setTimeout(function(){submitError.style.display = 'none';}, 3000);
-        return false;
-    }
-}
-
 signinBtn.onclick = function(){
     nameField.style.maxHeight = "0";
     title1.innerHTML = "Sign In";
@@ -69,4 +59,12 @@ signupBtn.onclick = function(){
     title1.innerHTML = "Sign Up";
     signupBtn.classList.remove("disable");
     signinBtn.classList.add("disable");
+}
+
+function notification1() {
+    alert("You have signed up!");
+}
+
+function notification2() {
+    alert("You have signed in!");
 }
