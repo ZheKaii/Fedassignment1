@@ -2,7 +2,12 @@ let signupBtn = document.getElementById("signupBtn");
 let signinBtn = document.getElementById("signinBtn");
 let nameField = document.getElementById("nameField");
 let title1 = document.getElementById("title1");
-  
+let form = document.getElementById("form");
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let password = document.getElementById("password");
+
+
 signinBtn.onclick = function(){
     nameField.style.maxHeight = "0";
     title1.innerHTML = "Sign In";
