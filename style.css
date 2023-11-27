@@ -14,16 +14,15 @@
 }
 #mainwrapper header #logo2 {
     width: 14%;
-    float: left;
+    float: right;
     padding-right: 1%;
     padding-top: 12px;
     padding-bottom: 12px;
-    margin-left: 200px;
 }
 #mainwrapper header nav {
     text-align: left;
     padding-top: 50px;
-    width: 40%;
+    width: 1000px;
     float: left;
     color: gray;   
     font-size: 25px;
@@ -32,8 +31,6 @@
     width: 160px;
     height: 50px;
     float: right;
-    margin-top: 40px;
-    margin-right: 50px;
 }
 header nav a {
     margin: 30px;
@@ -265,10 +262,38 @@ header nav a {
 .container3 {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(black,black), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .container iframe {
     margin-right: 10px;
