@@ -5,6 +5,7 @@ let title1 = document.getElementById("title1");
 let nameError = document.getElementById('name-error');
 let emailError = document.getElementById('email-error');
 let passwordError = document.getElementById('password-error');
+let submitError = doucment.getElementById('submit-error');
 
 function validateName() {
     var name = document.getElementById('name').value;
@@ -45,6 +46,15 @@ function validatePassword() {
         return false;
     }
     passwordError.innerHTML = '';
+    return true;
+}
+
+function validateForm() {
+    if (!validateName() || !validateEmail() || !validatePassword()) {
+        submitError.innerHTML = 'Please fix error';
+        return false;
+    }
+    alert('You have signed up!');
     return true;
 }
 
