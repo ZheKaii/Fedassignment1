@@ -15,37 +15,39 @@
                 <div id="logo2"><img src="https://thumb.pann.com/tc_480/https://fimg5.pann.com/new/download.jsp?FileID=64977545" width="200px" height="100px"></div>
             </header>
         </div>
-        <div class="container3">
-            <div class="form-box">
-                <h1 id="title1">Sign Up</h1>
-                <form>
-                    <div class="input-group">
-                        <div class="input-field" id="nameField">
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text" placeholder="Enter your name" id="name" onkeyup="validateName()">
-                            <span id="name-error"></span>
+        <div class="content">
+            <div class="container3">
+                <div class="form-box">
+                    <h1 id="title1">Sign Up</h1>
+                    <form>
+                        <div class="input-group">
+                            <div class="input-field" id="nameField">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" placeholder="Enter your name" id="name" onkeyup="validateName()">
+                                <span id="name-error"></span>
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="password" placeholder="Enter your password" id="password" onkeyup="validatePassword()">
+                                <span id="password-error"></span>
+                            </div>
+                            <p>Lost password <a href="#">Click Here!</a></p>
                         </div>
-                        <div class="input-field">
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()">
-                            <span id="email-error"></span>
+                        <div class="btn-field">
+                            <button type="button" id="signupBtn">Sign Up</button>
+                            <button type="button" id="signinBtn" class="disable">Sign In</button>
                         </div>
-                        <div class="input-field">
-                            <i class="fa-solid fa-user"></i>
-                            <input type="password" placeholder="Enter your password" id="password" onkeyup="validatePassword()">
-                            <span id="password-error"></span>
+                        <div class="submit-field">
+                            <button onclick="return validateForm()">Confirm</button>
+                            <span id="submit-error"></span>
                         </div>
-                        <p>Lost password <a href="#">Click Here!</a></p>
-                    </div>
-                    <div class="btn-field">
-                        <button type="button" id="signupBtn">Sign Up</button>
-                        <button type="button" id="signinBtn" class="disable">Sign In</button>
-                    </div>
-                    <div class="submit-field">
-                        <button onclick="return validateForm()">Confirm</button>
-                        <span id="submit-error"></span>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
         <script src="script.js"></script>
