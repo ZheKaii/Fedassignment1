@@ -97,6 +97,10 @@ header nav a {
     text-align: center;
     margin-right: 40px;
 }
+#musicbox3 li a{
+    text-decoration: none;
+    color: black;
+}
 #memberbox1 {
     width: 410px;
     height: 470px;
