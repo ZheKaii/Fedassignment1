@@ -1,7 +1,6 @@
 #mainwrapper header {
     background-color: rgb(71, 245, 233);
     overflow: auto;
-    font-family:'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;     
     position: fixed;
@@ -44,6 +43,9 @@ header nav a {
     margin: 30px;
     text-decoration: none;
     color: black;
+}
+nav input {
+    font-family: 'Handlee', cursive;
 }
 #pic1 {
     margin-top: 10px;
@@ -353,6 +355,7 @@ header nav a {
     border: 0;
     outline: 0;
     padding: 18px 15px;
+    font-family: 'Handlee', cursive;
 }
 .input-field i {
     margin-left: 15px;
@@ -374,6 +377,7 @@ form p a {
     outline: 0;
     color: white;
     height: 30px;
+    font-family: 'Handlee', cursive;
 }
 .btn-field {
     width: 100%;
@@ -394,6 +398,7 @@ form p a {
     outline: 0;
     cursor: pointer;
     transition: background 1s;
+    font-family: 'Handlee', cursive;
 }
 .input-group {
     height: 280px;
@@ -451,6 +456,7 @@ ul.icon li {
     display: inline-block;
     margin: 40px;
     margin-right: 100px;
+    margin-top: 90px;
 }
 #title {
     text-align: center;
@@ -474,9 +480,15 @@ ul.icon li {
 .row2 a {
     margin-inline: 45px;
 }
+.row2 input {
+    font-family: 'Handlee', cursive;
+}
 hr {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .body {
     background-color: white;
+}
+div {
+    font-family: 'Handlee', cursive;
 }
