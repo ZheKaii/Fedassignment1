@@ -46,6 +46,7 @@ header nav a {
 }
 nav input {
     font-family: 'Handlee', cursive;
+    background-color: rgb(252, 193, 203);
 }
 #pic1 {
     margin-top: 10px;
@@ -172,7 +173,7 @@ nav input {
     width: 340px;
     padding-left: 2%;
     padding-right: 2%;
-    background-color: darkgrey;
+    background-color: rgb(252, 193, 203);
     margin-left: 10px;
     padding-bottom: 20px;
     margin-top: 10px;
@@ -184,26 +185,11 @@ nav input {
     overflow: auto;
     margin-left: 15px;
 }
-#merchandisebg {
-    width: 410px;
-    padding-left: 1%;
-    padding-right: 1%;
-    background-color: darkgrey;
-    padding-bottom: 15px;
-    margin-top: 10px;
-    margin-inline: 55px;
-}    
-#merchandisebg #pics {
-    width: 100%;
-    float: center;
-    overflow: auto;
-    padding-top: 20px;
-} 
 #musicbg {
     width: 410px;
     padding-left: 1%;
     padding-right: 1%;
-    background-color: darkgrey;
+    background-color: rgb(252, 193, 203);
     padding-bottom: 15px;
     margin-top: 10px;
     margin-inline: 55px;
@@ -230,7 +216,7 @@ nav input {
     width: 410px;
     padding-left: 1%;
     padding-right: 1%;
-    background-color: darkgrey;
+    background-color: rgb(252, 193, 203);
     padding-bottom: 15px;
     margin-top: 10px;
     margin-inline: 65px;
@@ -277,7 +263,7 @@ nav input {
     overscroll-behavior-y: contain;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
-    background-color: darkgrey;
+    background-color: white;
     margin-inline: 40px;
 }
 .slides > div {
@@ -306,7 +292,7 @@ nav input {
 .container3 {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
+    background-image: linear-gradient(rgb(252, 193, 203, 0.8),rgb(252, 193, 203, 0.8)), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -325,7 +311,7 @@ nav input {
 .form-box h1 {
     font-size: 30px;
     margin-bottom: 60px;
-    color: #3c00a0;
+    color: rgb(252, 193, 203);
     position: relative;
 }
 .form-box h1::after {
@@ -333,7 +319,7 @@ nav input {
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: #3c00a0;
+    background: rgb(252, 193, 203);
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -367,13 +353,13 @@ form p {
 }
 form p a {
     text-decoration: none;
-    color: #3c00a0;
+    color: rgb(252, 193, 203);
 }
 .submit-field {
     margin-top: 20px;
 }
 .submit-field button {
-    background-color: #3c00a0;
+    background-color: rgb(252, 193, 203);
     outline: 0;
     color: white;
     height: 30px;
@@ -390,7 +376,7 @@ form p a {
 }
 .btn-field button {
     flex-basis: 48%;
-    background: #3c00a0;
+    background: rgb(252, 193, 203);
     color: #fff;
     height: 40px;
     border-radius: 20px;
@@ -465,7 +451,7 @@ ul.icon li {
 #spacingtitles {
     word-spacing: 370px;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 #spacingtitles2 {
     text-align: center;
