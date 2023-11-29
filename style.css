@@ -176,7 +176,9 @@ nav input {
     background-color: rgb(252, 193, 203);
     margin-left: 10px;
     padding-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    height: 675px;
 }
 #sidebar #albumpic{
     width: 100%;
@@ -468,6 +470,7 @@ ul.icon li {
 }
 .row2 input {
     font-family: 'Handlee', cursive;
+    background-color: rgb(252, 193, 203);
 }
 hr {
     margin-top: 70px;
