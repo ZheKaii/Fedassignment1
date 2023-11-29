@@ -1,17 +1,17 @@
 #mainwrapper header {
-    background-color: rgb(71, 245, 233);
+    background-color: white;
     overflow: auto;
     font-style: normal;
     font-weight: 400;     
     position: fixed;
     top: 0;
-    width: 100%;          
+    width: 100%;        
     }
 .content {
     margin-top: 130px;
 }
 #mainwrapper header:hover {
-    background-color: rgb(71, 245, 233);
+    background-color: white;
 }
 #mainwrapper header #logo1 {
     width: 16%;
@@ -486,7 +486,7 @@ ul.icon li {
 hr {
     margin-top: 70px;
 }
-.body {
+body {
     background-color: white;
 }
 div {
