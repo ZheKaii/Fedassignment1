@@ -10,6 +10,9 @@
 .content {
     margin-top: 130px;
 }
+#intropara {
+    font-size: 25px;
+}
 #mainwrapper header:hover {
     background-color: white;
 }
@@ -52,13 +55,13 @@ nav input {
     margin-top: 10px;
     width: 1100px;
     height: 700px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 } 
 @keyframes fadeIn {
     0% {opacity: 0; }
     100% {opacity: 1; }
 }
-#concert-box {
+#eventsbox {
     width: 1250px;
     height: 450px;
     border: 2px solid black;
@@ -184,7 +187,7 @@ nav input {
     margin-top: 15px;
     border: 1px solid black;
     height: 675px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 #sidebar #albumpic{
     width: 100%;
