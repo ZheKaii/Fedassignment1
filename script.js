@@ -1,3 +1,4 @@
+// Here is where I assign variables to an element in the html pages
 let signupBtn = document.getElementById("signupBtn");
 let signinBtn = document.getElementById("signinBtn");
 let nameField = document.getElementById("nameField");
@@ -7,6 +8,7 @@ let emailError = document.getElementById('email-error');
 let passwordError = document.getElementById('password-error');
 let submitError = doucment.getElementById('submit-error');
 
+// This method is for form validation for the name
 function validateName() {
     var name = document.getElementById('name').value;
     if (name.length == 0) {
@@ -21,6 +23,7 @@ function validateName() {
     return true;
 }
 
+// This method is for form validation for the email
 function validateEmail() {
     var email = document.getElementById('email').value;
     if (email.length == 0) {
@@ -35,6 +38,7 @@ function validateEmail() {
     return true;
 }
 
+// This method is for form validation for the password
 function validatePassword() {
     var password = document.getElementById('password').value;
     if (password.length == 0) {
@@ -49,6 +53,7 @@ function validatePassword() {
     return true;
 }
 
+// This method is alert the user that they have successfully signed up, if not errors will occur
 function validateForm() {
     if (!validateName() || !validateEmail() || !validatePassword()) {
         submitError.innerHTML = 'Please fix error';
@@ -58,12 +63,15 @@ function validateForm() {
     return true;
 }
 
+// This method is to switch to sign in page ##not working
 signinBtn.onclick = function(){
     nameField.style.maxHeight = "0";
     title1.innerHTML = "Sign In";
     signupBtn.classList.add("disable");
     signinBtn.classList.remove("disable");
 }
+
+// This method is to switch to sign up page ##not working
 signupBtn.onclick = function(){
     nameField.style.maxHeight = "60px";
     title1.innerHTML = "Sign Up";
