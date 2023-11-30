@@ -3,56 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=devicewidth, intial-scale=1">
+        <!-- This link below is to add css to this html -->
         <link rel="stylesheet" href="style.css" type="text/css">
         <title>NewJeans Website</title>
+        <!-- This link below is to add favicon to the website -->
         <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hTXwk04BUA2tdWt6ImNEjXuqpgJ7qwuPqA&usqp=CAU">
+        <!-- These 3 links below is to add google fonts to the website -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="mainwrapper">
+        <div id="mainwrapper"> <!-- This is a container for the header -->
             <header>
                 <div id="logo1"><a href="index.html" title="Home"><img src="https://shop.newjeans-official.us/cdn/shop/files/NJ_D2C_Design_Draft-04_x300.png?v=1686686762" width="200px" height="100px"></a></div>
                 <nav> <a href="profile.html" title="Profile">Profile</a> <a href="music.html" title="Music">Music</a> <a href="merchandise.html" title="Merchandise">Merchandise</a> <a href="account.html"><input type="button" value="Account"></a> </nav>
                 <div id="logo2"><img src="https://thumb.pann.com/tc_480/https://fimg5.pann.com/new/download.jsp?FileID=64977545" width="200px" height="100px"></div>
             </header>
         </div>
-        <div class="content">
-            <div class="container3">
+        <div class="content"> <!-- This is to group all the content together -->
+            <div class="container3"> <!-- This is a container to group everything together -->
                 <div class="form-box">
-                    <h1 id="title1">Sign Up</h1>
+                    <h1 id="title1">Sign Up</h1> <!-- This is the title for the page -->
                     <form>
-                        <div class="input-group">
+                        <div class="input-group"> <!-- This is to group all the input-fields together -->
                             <div class="input-field" id="nameField">
                                 <i class="fa-solid fa-user"></i>
-                                <input type="text" placeholder="Enter your name" id="name" onkeyup="validateName()">
-                                <span id="name-error"></span>
+                                <input type="text" placeholder="Enter your name" id="name" onkeyup="validateName()"> <!-- This is the name input-field -->
+                                <span id="name-error"></span> <!-- This is to catch any name error -->
                             </div>
                             <div class="input-field">
                                 <i class="fa-solid fa-envelope"></i>
-                                <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()">
-                                <span id="email-error"></span>
+                                <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()"> <!-- This is the email input-field -->
+                                <span id="email-error"></span> <!-- This is to catch any email error -->
                             </div>
                             <div class="input-field">
                                 <i class="fa-solid fa-user"></i>
-                                <input type="password" placeholder="Enter your password" id="password" onkeyup="validatePassword()">
-                                <span id="password-error"></span>
+                                <input type="password" placeholder="Enter your password" id="password" onkeyup="validatePassword()"> <!-- This is the password input-field -->
+                                <span id="password-error"></span> <!-- This is to catch any password error -->
                             </div>
                             <p>Lost password <a href="#">Click Here!</a></p>
                         </div>
-                        <div class="btn-field">
+                        <div class="btn-field"> <!-- This is to group the sign in/sign up button together -->
                             <button type="button" id="signupBtn">Sign Up</button>
                             <button type="button" id="signinBtn" class="disable">Sign In</button>
                         </div>
-                        <div class="submit-field">
+                        <div class="submit-field"> <!-- This is to group the submit button -->
                             <button onclick="return validateForm()">Confirm</button>
-                            <span id="submit-error"></span>
+                            <span id="submit-error"></span> <!-- This is to catch any submit error -->
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="script.js"></script> <!-- This link below is to add javascript to this html -->
     </body>
 </html>
