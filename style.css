@@ -557,7 +557,6 @@ div {
     float: left;
     padding-left: 1%;
     padding-top: 12px;
-    padding-bottom: 12px;
 }
 /* This is to style the Bunnies Logo of the header of the website */
 #mainwrapper header #logo2 {
@@ -565,7 +564,6 @@ div {
     float: right;
     padding-right: 1%;
     padding-top: 12px;
-    padding-bottom: 12px;
 }
 /* This is to style the navigations of the header of the website */
 #mainwrapper header nav {
@@ -597,20 +595,20 @@ nav input {
 
 /* STYLING FOR VIEWPORT */
 @media screen and (max-width: 576px) {
-    header nav a, header nav{
-        float: none;
-        display: block;
-        text-align: left;
+    #mainwrapper header {
+        width: 100%;
     }
-    header input {
+    header nav a{
         float: left;
         display: block;
+        text-align: left;
+        margin: 10px;
+    }
+    header input {
+        display: none;
     }
     header #logo2 {
-        float: right;
-        display: block;
-        width: 100%;
-        height: auto;
+        display: none;
     }
     #pic1 {
         width: 100%;
