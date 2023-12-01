@@ -79,6 +79,9 @@ In addition, my project only works on desktops and mobile devices
 ### Media
 - The photos used in my website were obtained online in Google
 
+### Fonts
+- The fonts used in my website were obtained online in Google Fonts
+
 ### Acknowledgements
 
 - I received inspiration for this project from a Japan NewJeans Website
