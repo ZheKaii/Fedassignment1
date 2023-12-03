@@ -53,6 +53,7 @@
         overflow: auto;
         margin-left: 15px;
     }
+    /* This is to adjust the size of image specifically */
     #albumpic img {
         width: 300px;
         height: 300px;
@@ -186,6 +187,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of image specifically */
     #musicpic1 img {
         width: 400px;
         height: 400px;
@@ -197,6 +199,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of image specifically */
     #musicpic2 img {
         width: 400px;
         height: 400px;
@@ -208,6 +211,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of image specifically */
     #musicpic3 img {
         width: 400px;
         height: 400px;
@@ -298,6 +302,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of image specifically */
     #memberpic1 img {
         width: 380px;
         height: 600px;
@@ -310,6 +315,7 @@
         padding-top: 20px;
         margin-left: 15px;
     }
+    /* This is to adjust the size of image specifically */
     #memberpic2 img {
         width: 380px;
         height: 600px;
@@ -575,7 +581,6 @@
         top: 0;
         width: 100%;        
     }
-
     /* This is to style the contents of the website so that it is below the fixed header */
     .content {
         margin-top: 130px;
@@ -592,6 +597,7 @@
         padding-left: 1%;
         padding-top: 12px;
     }
+    /* This is to adjust the size of the image specifically */
     #mainwrapper header #logo1 img {
         width: 200px;
         height: 100px;
@@ -651,6 +657,7 @@
 
 /* STYLING FOR MOBILE */
 @media screen and (max-width: 576px) {
+    /* This is to style the header of the website */
     #mainwrapper header {
         width: 100%;
         overflow-x: hidden;
@@ -660,6 +667,7 @@
         position: fixed;
         top: 0;
     }
+    /* This is to style the navigation link of the header of the website */
     header nav a{
         float: left;
         display: block;
@@ -669,6 +677,7 @@
         text-decoration: none;
         color: black;
     }
+    /* This is to style the Bunnies Logo of the header of the website */
     header #logo2 {
         display: none;
         width: 14%;
@@ -676,6 +685,7 @@
         padding-right: 1%;
         padding-top: 12px;
     }
+    /* This is to style the NewJeans Logo of the header of the website */
     header #logo1 {
         margin-left: 160px;
         width: 200px;
@@ -684,13 +694,16 @@
         padding-left: 1%;
         padding-top: 12px;
     }
+    /* This is to adjust the size of the image specifically */
     header #logo1 img {
         width: 200px;
         height: 100px;
     }
+    /* This is to style the contents of the website so that it is below the fixed header */
     .content {
         margin-top: 240px;
     }
+    /* This is to style the container */
     .container {
         display: block;
     }
@@ -775,6 +788,7 @@
         height: 400px;
         animation: fadeIn 2s;
     } 
+    /* This is to adjust the size of the image specifically */
     #pic1 img {
         width: 550px;
         height: 400px;
@@ -808,6 +822,7 @@
         overflow: auto;
         margin-left: 110px;
     }
+    /* This is to adjust the size of the image specifically */
     #albumpic img{
         width: 300px;
         height: 300px;
@@ -941,6 +956,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of the image specifically */
     #musicpic1 img {
         width: 160px;
         height: 160px;
@@ -952,6 +968,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of the image specifically */
     #musicpic2 img {
         width: 160px;
         height: 160px;
@@ -963,6 +980,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of the image specifically */
     #musicpic3 img {
         width: 160px;
         height: 160px;
@@ -1053,6 +1071,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of the image specifically */
     #memberpic1 img {
         width: 160px;
         height: 250px;
@@ -1064,6 +1083,7 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to adjust the size of the image specifically */
     #memberpic2 img {
         width: 160px;
         height: 250px;
@@ -1155,7 +1175,7 @@
     /* This is to style the form */
     .form-box {
         width: 90%;
-        max-width: 450px;
+        max-width: 400px;
         position: absolute;
         top: 50%;
         left: 50%;
