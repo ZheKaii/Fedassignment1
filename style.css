@@ -53,6 +53,10 @@
         overflow: auto;
         margin-left: 15px;
     }
+    /* This is to have a hovering effect */
+    #albumpic:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of image specifically */
     #albumpic img {
         width: 300px;
@@ -106,6 +110,10 @@
         margin-right: 100px;
         margin-top: 90px;
     }
+    /* This is to have a hovering effect */
+    ul.icon li:hover {
+        opacity: 0.7;
+    }
     /* STYLING FOR INDEX PAGE */
 
 
@@ -124,6 +132,10 @@
     #musicbox1 li {
         text-align: center;
         margin-right: 50px;
+    }
+    /* This is to have a hovering effect */
+    #musicbox1 li:hover {
+        opacity: 0.7;
     }
     /* This is to style the words of the songs */
     #musicbox1 a {
@@ -145,6 +157,10 @@
         text-align: center;
         margin-right: 40px;
     }
+    /* This is to have a hovering effect */
+    #musicbox2 li:hover {
+        opacity: 0.7;
+    }
     /* This is to style the words of the songs */
     #musicbox2 a {
         text-decoration: none;
@@ -164,6 +180,10 @@
     #musicbox3 li {
         text-align: center;
         margin-right: 40px;
+    }
+    /* This is to have a hovering effect */
+    #musicbox3 li:hover {
+        opacity: 0.7;
     }
     /* This is to style the words of the songs */
     #musicbox3 li a{
@@ -187,6 +207,10 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to have a hovering effect */
+    #musicpic1:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of image specifically */
     #musicpic1 img {
         width: 400px;
@@ -199,6 +223,10 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to have a hovering effect */
+    #musicpic2:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of image specifically */
     #musicpic2 img {
         width: 400px;
@@ -210,6 +238,10 @@
         float: center;
         overflow: auto;
         padding-top: 20px;
+    }
+    /* This is to have a hovering effect */
+    #musicpic3:hover {
+        opacity: 0.7;
     }
     /* This is to adjust the size of image specifically */
     #musicpic3 img {
@@ -366,6 +398,10 @@
         height: 400px;
         object-fit: contain;
     }
+    /* This is to have a hovering effect */
+    .slides img:hover {
+        opacity: 0.7;
+    }
     /* This is to for the scrolling in merchandise page */
     .slides::-webkit-scrollbar {
         display: none;
@@ -385,6 +421,10 @@
         font-size: 20px;
         font-family: 'Handlee', cursive;
         background-color: rgb(252, 193, 203);
+    }
+    /* This is to have a hovering effect */
+    .row2 input:hover {
+        opacity: 0.7;
     }
     /* This is also to style the buttons at the bottom of the merchandise page */
     .row2 a {
@@ -455,6 +495,10 @@
         padding: 18px 15px;
         font-family: 'Handlee', cursive;
     }
+    /* This is to have a hovering effect */
+    .input-field:hover {
+        opacity: 0.7;
+    }
     /* This is also to style the form */
     .input-field i {
         margin-left: 15px;
@@ -470,6 +514,10 @@
         text-decoration: none;
         color: rgb(252, 193, 203);
     }
+    /* This is to have a hovering effect */
+    form p a:hover {
+        opacity: 0.7;
+    }
     /* This is to style the submit area */
     .submit-field {
         margin-top: 20px;
@@ -481,6 +529,10 @@
         color: white;
         height: 30px;
         font-family: 'Handlee', cursive;
+    }
+    /* This is to have a hovering effect */
+    .submit-field button:hover {
+        opacity: 0.7;
     }
     /* This is to style the button area */
     .btn-field {
@@ -597,6 +649,10 @@
         padding-left: 1%;
         padding-top: 12px;
     }
+    /* This is to have a hovering effect */
+    header #logo1:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of the image specifically */
     #mainwrapper header #logo1 img {
         width: 200px;
@@ -624,11 +680,19 @@
         height: 50px;
         float: right;
     }
+    /* This is to have a hovering effect */
+    #mainwrapper input:hover {
+        opacity: 0.7;
+    }
     /* This is to style the navigation link of the header of the website */
     header nav a {
         margin: 30px;
         text-decoration: none;
         color: black;
+    }
+    /* This is to have a hovering effect */
+    header nav a:hover {
+        opacity: 0.7;
     }
     /* This is also to style the account button of the header of the website */
     nav input {
@@ -677,6 +741,10 @@
         text-decoration: none;
         color: black;
     }
+    /* This is to have a hovering effect */
+    header nav a:hover {
+        opacity: 0.7;
+    }
     /* This is to style the Bunnies Logo of the header of the website */
     header #logo2 {
         display: none;
@@ -693,6 +761,10 @@
         float: left;
         padding-left: 1%;
         padding-top: 12px;
+    }
+    /* This is to have a hovering effect */
+    header #logo1:hover {
+        opacity: 0.7;
     }
     /* This is to adjust the size of the image specifically */
     header #logo1 img {
@@ -716,6 +788,10 @@
     #mainwrapper input{
         width: 160px;
         height: 50px;
+    }
+    /* This is to have a hovering effect */
+    #mainwrapper input:hover {
+        opacity: 0.7;
     }
     /* This is to style the navigations of the header of the website */
     #mainwrapper header nav {
@@ -822,6 +898,10 @@
         overflow: auto;
         margin-left: 110px;
     }
+    /* This is to have a hovering effect */
+    #albumpic:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of the image specifically */
     #albumpic img{
         width: 300px;
@@ -875,6 +955,10 @@
         margin-right: 100px;
         margin-top: 90px;
     }
+    /* This is to have a hovering effect */
+    ul.icon li:hover {
+        opacity: 0.7;
+    }
     /* STYLING FOR INDEX PAGE */
 
 
@@ -893,6 +977,10 @@
     #musicbox1 li {
         text-align: center;
         margin-right: 50px;
+    }
+    /* This is to have a hovering effect */
+    #musicbox1 li:hover {
+        opacity: 0.7;
     }
     /* This is to style the words of the songs */
     #musicbox1 a {
@@ -914,6 +1002,10 @@
         text-align: center;
         margin-right: 40px;
     }
+     /* This is to have a hovering effect */
+     #musicbox2 li:hover {
+        opacity: 0.7;
+    }
     /* This is to style the words of the songs */
     #musicbox2 a {
         text-decoration: none;
@@ -933,6 +1025,10 @@
     #musicbox3 li {
         text-align: center;
         margin-right: 40px;
+    }
+     /* This is to have a hovering effect */
+     #musicbox3 li:hover {
+        opacity: 0.7;
     }
     /* This is to style the words of the songs */
     #musicbox3 li a{
@@ -956,6 +1052,10 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to have a hovering effect */
+    #musicpic1:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of the image specifically */
     #musicpic1 img {
         width: 160px;
@@ -968,6 +1068,10 @@
         overflow: auto;
         padding-top: 20px;
     }
+    /* This is to have a hovering effect */
+    #musicpic2:hover {
+        opacity: 0.7;
+    }
     /* This is to adjust the size of the image specifically */
     #musicpic2 img {
         width: 160px;
@@ -979,6 +1083,10 @@
         float: center;
         overflow: auto;
         padding-top: 20px;
+    }
+    /* This is to have a hovering effect */
+    #musicpic3:hover {
+        opacity: 0.7;
     }
     /* This is to adjust the size of the image specifically */
     #musicpic3 img {
@@ -1134,6 +1242,10 @@
         height: 110px;
         object-fit: contain;
     }
+    /* This is to have a hovering effect */
+    .slides img:hover {
+        opacity: 0.7;
+    }
     /* This is to for the scrolling in merchandise page */
     .slides::-webkit-scrollbar {
         display: none;
@@ -1153,6 +1265,10 @@
         font-size: 20px;
         font-family: 'Handlee', cursive;
         background-color: rgb(252, 193, 203);
+    }
+    /* This is to have a hovering effect */
+    .row2 input:hover {
+        opacity: 0.7;
     }
     /* This is also to style the buttons at the bottom of the merchandise page */
     .row2 a {
@@ -1214,6 +1330,10 @@
         transition: max-height 0.5s;
         overflow: hidden;
     }
+    /* This is to have a hovering effect */
+    .input-field:hover {
+        opacity: 0.7;
+    }
     /* This is to style the inputs of the input field of the form */
     .input-field input {
         width: 100%;
@@ -1238,6 +1358,10 @@
         text-decoration: none;
         color: rgb(252, 193, 203);
     }
+    /* This is to have a hovering effect */
+    form p a:hover {
+        opacity: 0.7;
+    }
     /* This is to style the submit area */
     .submit-field {
         margin-top: 20px;
@@ -1249,6 +1373,10 @@
         color: white;
         height: 30px;
         font-family: 'Handlee', cursive;
+    }
+    /* This is to have a hovering effect */
+    .submit-field button:hover {
+        opacity: 0.7;
     }
     /* This is to style the button area */
     .btn-field {
