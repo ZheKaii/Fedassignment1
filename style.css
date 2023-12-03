@@ -1,617 +1,1192 @@
-/* STYLING FOR INDEX PAGE */
-/* This is to style the introduction paragraph of the website */
-.intropara {
-    font-size: 25px;
-}
-/* This is to style the NewJeans picture at the home page */
-#pic1 {
-    margin-top: 10px;
-    width: 1100px;
-    height: 700px;
-    animation: fadeIn 2s;
-} 
-/* This is to style the events box in the home page */
-#eventsbox {
-    width: 1250px;
-    height: 450px;
-    border: 2px solid black;
-    float: right;
-    text-align: center;
-    font-size: 20px;
-}
-/* This is to style the sidebar in the home page */
-#sidebar {
-    width: 340px;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: rgb(252, 193, 203);
-    margin-left: 10px;
-    padding-bottom: 20px;
-    margin-top: 15px;
-    border: 1px solid black;
-    height: 675px;
-    animation: fadeIn 2s;
-}
-/* This is to style the album pictures in the sidebar */
-#sidebar #albumpic{
-    width: 100%;
-    margin-top: 23px;
-    float: center;
-    overflow: auto;
-    margin-left: 15px;
-}
-/* This is to style the words for sidebar in home page */
-#sidebar #description{
-    text-align: center;
-    font-size: 20px;
-}
-/* This is to style the instagram icon in home page */
-#instagram {
-    height: 100px;
-    width: 100px;
-    font-size: 0px;
-}
-/* This is to style the twitter icon in home page */
-#twitter {
-    height: 100px;
-    width: 100px;
-    font-size: 0px;
-}
-/* This is to style the phoning icon in home page */
-#phoning {
-    height: 100px;
-    width: 100px;
-    font-size: 0px;
-}
-/* This is to style the youtube icon in home page */
-#youtube {
-    height: 100px;
-    width: 100px;
-    font-size: 0px;
-}
-/* This is to style the weverse icon in home page */
-#weverse {
-    height: 100px;
-    width: 100px;
-    font-size: 0px;
-}
-/* This is to style the facebook icon in home page */
-#facebook {
-    height: 100px;
-    width: 100px;
-    font-size: 0px;
-}
-/* This is to style the social media icons in home page */
-ul.icon li {
-    display: inline-block;
-    margin: 40px;
-    margin-right: 100px;
-    margin-top: 90px;
-}
-/* STYLING FOR INDEX PAGE */
+@media screen and (min-width: 577px) {
+    /* STYLING FOR INDEX PAGE */
+    /* This is to style the introduction paragraph of the website */
+    .intropara {
+        font-size: 25px;
+    }
+    /* This is to style the NewJeans picture at the home page */
+    #pic1 {
+        margin-top: 10px;
+        width: 1100px;
+        height: 700px;
+        animation: fadeIn 2s;
+    } 
+    /* This is to style the events box in the home page */
+    #eventsbox {
+        width: 1250px;
+        height: 450px;
+        border: 2px solid black;
+        float: right;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* This is to style the sidebar in the home page */
+    #sidebar {
+        width: 340px;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(252, 193, 203);
+        margin-left: 10px;
+        padding-bottom: 20px;
+        margin-top: 15px;
+        border: 1px solid black;
+        height: 675px;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the album pictures in the sidebar */
+    #sidebar #albumpic{
+        width: 100%;
+        margin-top: 23px;
+        float: center;
+        overflow: auto;
+        margin-left: 15px;
+    }
+    /* This is to style the words for sidebar in home page */
+    #sidebar #description{
+        text-align: center;
+        font-size: 20px;
+    }
+    /* This is to style the instagram icon in home page */
+    #instagram {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the twitter icon in home page */
+    #twitter {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the phoning icon in home page */
+    #phoning {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the youtube icon in home page */
+    #youtube {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the weverse icon in home page */
+    #weverse {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the facebook icon in home page */
+    #facebook {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the social media icons in home page */
+    ul.icon li {
+        display: inline-block;
+        margin: 40px;
+        margin-right: 100px;
+        margin-top: 90px;
+    }
+    /* STYLING FOR INDEX PAGE */
 
 
-/* STYLING FOR MUSIC PAGE */
-/* This is to style the 1st music box in the music page */
-#musicbox1 {
-    width: 410px;
-    height: 225px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-/* This is to style the list of songs for the 1st album */
-#musicbox1 li {
-    text-align: center;
-    margin-right: 50px;
-}
-/* This is to style the words of the songs */
-#musicbox1 a {
-    text-decoration: none;
-    color: black;
-}
-/* This is to style the 2nd music box in the music page */
-#musicbox2 {
-    width: 410px;
-    height: 225px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 130px;
-}
-/* This is to style the list of songs for the 2nd album */
-#musicbox2 li {
-    text-align: center;
-    margin-right: 40px;
-}
-/* This is to style the words of the songs */
-#musicbox2 a {
-    text-decoration: none;
-    color: black;
-}
-/* This is to style the 3rd music box in the music page */
-#musicbox3 {
-    width: 410px;
-    height: 225px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 130px;
-}
-/* This is to style the list of songs for the 3rd album */
-#musicbox3 li {
-    text-align: center;
-    margin-right: 40px;
-}
-/* This is to style the words of the songs */
-#musicbox3 li a{
-    text-decoration: none;
-    color: black;
-}
-/* This is to style the background for the album pictures in music page */
-#musicbg {
-    width: 410px;
-    padding-left: 1%;
-    padding-right: 1%;
-    background-color: rgb(252, 193, 203);
-    padding-bottom: 15px;
-    margin-top: 10px;
-    margin-inline: 55px;
-}     
-/* This is to style the 1st album picture in music page */
-#musicbg #musicpic1 {
-    width: 100%;
-    float: center;
-    overflow: auto;
-    padding-top: 20px;
-}
-/* This is to style the 2nd album picture in music page */
-#musicbg #musicpic2 {
-    width: 100%;
-    float: center;
-    overflow: auto;
-    padding-top: 20px;
-}
-/* This is to style the 3rd album picture in music page */
-#musicbg #musicpic3 {
-    width: 100%;
-    float: center;
-    overflow: auto;
-    padding-top: 20px;
-}
-/* This is to style the sub-titles of music page */
-#spacingtitles2 {
-    text-align: center;
-    word-spacing: 450px;
-    animation: fadeIn 2s;
-}
-/* STYLING FOR MUSIC PAGE */
+    /* STYLING FOR MUSIC PAGE */
+    /* This is to style the 1st music box in the music page */
+    #musicbox1 {
+        width: 410px;
+        height: 225px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    /* This is to style the list of songs for the 1st album */
+    #musicbox1 li {
+        text-align: center;
+        margin-right: 50px;
+    }
+    /* This is to style the words of the songs */
+    #musicbox1 a {
+        text-decoration: none;
+        color: black;
+    }
+    /* This is to style the 2nd music box in the music page */
+    #musicbox2 {
+        width: 410px;
+        height: 225px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    /* This is to style the list of songs for the 2nd album */
+    #musicbox2 li {
+        text-align: center;
+        margin-right: 40px;
+    }
+    /* This is to style the words of the songs */
+    #musicbox2 a {
+        text-decoration: none;
+        color: black;
+    }
+    /* This is to style the 3rd music box in the music page */
+    #musicbox3 {
+        width: 410px;
+        height: 225px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    /* This is to style the list of songs for the 3rd album */
+    #musicbox3 li {
+        text-align: center;
+        margin-right: 40px;
+    }
+    /* This is to style the words of the songs */
+    #musicbox3 li a{
+        text-decoration: none;
+        color: black;
+    }
+    /* This is to style the background for the album pictures in music page */
+    #musicbg {
+        width: 410px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(252, 193, 203);
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-inline: 55px;
+    }     
+    /* This is to style the 1st album picture in music page */
+    #musicbg #musicpic1 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the 2nd album picture in music page */
+    #musicbg #musicpic2 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the 3rd album picture in music page */
+    #musicbg #musicpic3 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the sub-titles of music page */
+    #spacingtitles2 {
+        text-align: center;
+        word-spacing: 450px;
+        animation: fadeIn 2s;
+    }
+    /* STYLING FOR MUSIC PAGE */
 
 
-/* STYLING FOR PROFILE PAGE */
-/* This is to style the 1st member box in the profile page */
-#memberbox1 {
-    width: 410px;
-    height: 470px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 5px;
-    line-height: 1.3;
-}
-/* This is to style the 2nd member box in the profile page */
-#memberbox2 {
-    width: 410px;
-    height: 470px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 130px;
-    line-height: 1.3;
-}
-/* This is to style the 3rd member box in the profile page */
-#memberbox3 {
-    width: 410px;
-    height: 470px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 130px;
-    line-height: 1.3;
-}
-/* This is to style the link for the 3rd member box */
-#memberbox3 a {
-    text-decoration: none;
-}
-/* This is to style the 4th member box in the profile page */
-#memberbox4 {
-    width: 430px;
-    height: 450px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 250px;
-    line-height: 1.3;
-}
-/* This is to style the 5th member box in the profile page */
-#memberbox5 {
-    width: 430px;
-    height: 450px;
-    border: 1px solid white;
-    text-align: center;
-    font-size: 27px;
-    margin-top: 10px;
-    margin-left: 140px;
-    line-height: 1.3;
-}
-/* This is to style the background of the member pictures in profile page */
-#profilebg {
-    width: 410px;
-    padding-left: 1%;
-    padding-right: 1%;
-    background-color: rgb(252, 193, 203);
-    padding-bottom: 15px;
-    margin-top: 10px;
-    margin-inline: 65px;
-}     
-/* This is to style the member pictures at the top in the profile page */
-#profilebg #memberpic1 {
-    width: 100%;
-    float: center;
-    overflow: auto;
-    padding-top: 20px;
-}
-/* This is to style the member pictures at the bottom in the profile page */
-#profilebg #memberpic2 {
-    width: 100%;
-    float: center;
-    overflow: auto;
-    padding-top: 20px;
-    margin-left: 15px;
-}
-/* STYLING FOR PROFILE PAGE */
+    /* STYLING FOR PROFILE PAGE */
+    /* This is to style the 1st member box in the profile page */
+    #memberbox1 {
+        width: 410px;
+        height: 470px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 5px;
+        line-height: 1.3;
+    }
+    /* This is to style the 2nd member box in the profile page */
+    #memberbox2 {
+        width: 410px;
+        height: 470px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+        line-height: 1.3;
+    }
+    /* This is to style the 3rd member box in the profile page */
+    #memberbox3 {
+        width: 410px;
+        height: 470px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+        line-height: 1.3;
+    }
+    /* This is to style the link for the 3rd member box */
+    #memberbox3 a {
+        text-decoration: none;
+    }
+    /* This is to style the 4th member box in the profile page */
+    #memberbox4 {
+        width: 430px;
+        height: 450px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 250px;
+        line-height: 1.3;
+    }
+    /* This is to style the 5th member box in the profile page */
+    #memberbox5 {
+        width: 430px;
+        height: 450px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 140px;
+        line-height: 1.3;
+    }
+    /* This is to style the background of the member pictures in profile page */
+    #profilebg {
+        width: 410px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(252, 193, 203);
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-inline: 65px;
+    }     
+    /* This is to style the member pictures at the top in the profile page */
+    #profilebg #memberpic1 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the member pictures at the bottom in the profile page */
+    #profilebg #memberpic2 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+        margin-left: 15px;
+    }
+    /* STYLING FOR PROFILE PAGE */
 
 
-/* STYLING FOR MERCHANDISE PAGE */
-/* This is to style the 3 buttons at the bottom in the merchandise page */
-.row2 {
-    display: flex;
-    justify-content: center;
-}
-/* This is to style the merchandise background */
-.thumbnails {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-/* This is to style the merchandise images */
-.thumbnails img {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-/* This is to allow the merchandise items to be scrollable */
-.slides {
-    display: grid;
-    grid-auto-flow: row;
-    gap: 1rem;
-    padding: 0 0.25rem;
-    padding-top: 10px;
-    height: 720px;
-    overflow-y: auto;
-    overscroll-behavior-y: contain;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none;
-    background-color: white;
-    margin-inline: 40px;
-}
-/* This is to locate where the scrolling start */
-.slides > div {
-    scroll-snap-align: start;
-}
-/* This is also to style the merchandise images */
-.slides img {
-    width: 400px;
-    object-fit: contain;
-}
-/* This is to for the scrolling in merchandise page */
-.slides::-webkit-scrollbar {
-    display: none;
-}
-/* This is to style the sub-titles of merchandise page */
-#spacingtitles {
-    word-spacing: 370px;
-    text-align: center;
-    margin-left: 20px;
-    animation: fadeIn 2s;
-}
-/* This is to style the buttons at the bottom of the merchandise page */
-.row2 input {
-    width: 400px;
-    height: 80px;
-    margin-top: 20px;
-    font-size: 20px;
-    font-family: 'Handlee', cursive;
-    background-color: rgb(252, 193, 203);
-}
-/* This is also to style the buttons at the bottom of the merchandise page */
-.row2 a {
-    margin-inline: 45px;
-}
-/* STYLING FOR MERCHANDISE PAGE */
+    /* STYLING FOR MERCHANDISE PAGE */
+    /* This is to style the 3 buttons at the bottom in the merchandise page */
+    .row2 {
+        display: flex;
+        justify-content: center;
+    }
+    /* This is to style the merchandise background */
+    .thumbnails {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    /* This is to style the merchandise images */
+    .thumbnails img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    /* This is to allow the merchandise items to be scrollable */
+    .slides {
+        display: grid;
+        grid-auto-flow: row;
+        gap: 1rem;
+        padding: 0 0.25rem;
+        padding-top: 10px;
+        height: 720px;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        background-color: white;
+        margin-inline: 40px;
+    }
+    /* This is to locate where the scrolling start */
+    .slides > div {
+        scroll-snap-align: start;
+    }
+    /* This is also to style the merchandise images */
+    .slides img {
+        width: 400px;
+        object-fit: contain;
+    }
+    /* This is to for the scrolling in merchandise page */
+    .slides::-webkit-scrollbar {
+        display: none;
+    }
+    /* This is to style the sub-titles of merchandise page */
+    #spacingtitles {
+        word-spacing: 370px;
+        text-align: center;
+        margin-left: 20px;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the buttons at the bottom of the merchandise page */
+    .row2 input {
+        width: 400px;
+        height: 80px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Handlee', cursive;
+        background-color: rgb(252, 193, 203);
+    }
+    /* This is also to style the buttons at the bottom of the merchandise page */
+    .row2 a {
+        margin-inline: 45px;
+    }
+    /* STYLING FOR MERCHANDISE PAGE */
 
 
-/* STYLING FOR ACCOUNT PAGE */
-/* This is to style the container for the account page */
-.container3 {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgb(252, 193, 203, 0.8),rgb(252, 193, 203, 0.8)), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    animation: fadeIn 2s;
-}
-/* This is to style the form */
-.form-box {
-    width: 90%;
-    max-width: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #fff;
-    padding: 50px 60px 70px;
-    text-align: center;
-}
-/* This is to style the title of the form */
-.form-box h1 {
-    font-size: 30px;
-    margin-bottom: 60px;
-    color: rgb(252, 193, 203);
-    position: relative;
-}
-/* This is to style the line below the title of the form */
-.form-box h1::after {
-    content: '';
-    width: 30px;
-    height: 4px;
-    border-radius: 3px;
-    background: rgb(252, 193, 203);
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-/* This is to style the input field of the form */
-.input-field {
-    background: #eaeaea;
-    margin: 15px 0;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    max-height: 65px;
-    transition: max-height 0.5s;
-    overflow: hidden;
-}
-/* This is to style the inputs of the input field of the form */
-.input-field input {
-    width: 100%;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    padding: 18px 15px;
-    font-family: 'Handlee', cursive;
-}
-/* This is also to style the form */
-.input-field i {
-    margin-left: 15px;
-    color: #999;
-}
-/* This is to style the 'Lost Password' */
-form p {
-    text-align: left;
-    font-size: 13px;
-}
-/* This is to style the 'Click Here!' */
-form p a {
-    text-decoration: none;
-    color: rgb(252, 193, 203);
-}
-/* This is to style the submit area */
-.submit-field {
-    margin-top: 20px;
-}
-/* This is to style the button of the submit area */
-.submit-field button {
-    background-color: rgb(252, 193, 203);
-    outline: 0;
-    color: white;
-    height: 30px;
-    font-family: 'Handlee', cursive;
-}
-/* This is to style the button area */
-.btn-field {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-/* This is to style the button of the button area */
-.btn-field button {
-    flex-basis: 48%;
-    background: rgb(252, 193, 203);
-    color: #fff;
-    height: 40px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    transition: background 1s;
-    font-family: 'Handlee', cursive;
-}
-/* This is to style all those in input-group */
-.input-group {
-    height: 280px;
-}
-/* This is to style the button that is not chosen */
-.btn-field button.disable {
-    background: #eaeaea;
-    color: #555;
-}
-/* This is to style the errors of the form */
-.input-group span {
-    position: absolute;
-    right: 70px;
-    font-size: 14px;
-    color: red;
-}
-/* This is to style the submit error of the form #notworking*/
-#submit-error {
-    color: red;
-    position: absolute;
-    bottom: 30px;
-    left: 230px;
-}
-/* STYLING FOR ACCOUNT PAGE */
+    /* STYLING FOR ACCOUNT PAGE */
+    /* This is to style the container for the account page */
+    .container3 {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(252, 193, 203, 0.8),rgb(252, 193, 203, 0.8)), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the form */
+    .form-box {
+        width: 90%;
+        max-width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #fff;
+        padding: 50px 60px 70px;
+        text-align: center;
+    }
+    /* This is to style the title of the form */
+    .form-box h1 {
+        font-size: 30px;
+        margin-bottom: 60px;
+        color: rgb(252, 193, 203);
+        position: relative;
+    }
+    /* This is to style the line below the title of the form */
+    .form-box h1::after {
+        content: '';
+        width: 30px;
+        height: 4px;
+        border-radius: 3px;
+        background: rgb(252, 193, 203);
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* This is to style the input field of the form */
+    .input-field {
+        background: #eaeaea;
+        margin: 15px 0;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        max-height: 65px;
+        transition: max-height 0.5s;
+        overflow: hidden;
+    }
+    /* This is to style the inputs of the input field of the form */
+    .input-field input {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 18px 15px;
+        font-family: 'Handlee', cursive;
+    }
+    /* This is also to style the form */
+    .input-field i {
+        margin-left: 15px;
+        color: #999;
+    }
+    /* This is to style the 'Lost Password' */
+    form p {
+        text-align: left;
+        font-size: 13px;
+    }
+    /* This is to style the 'Click Here!' */
+    form p a {
+        text-decoration: none;
+        color: rgb(252, 193, 203);
+    }
+    /* This is to style the submit area */
+    .submit-field {
+        margin-top: 20px;
+    }
+    /* This is to style the button of the submit area */
+    .submit-field button {
+        background-color: rgb(252, 193, 203);
+        outline: 0;
+        color: white;
+        height: 30px;
+        font-family: 'Handlee', cursive;
+    }
+    /* This is to style the button area */
+    .btn-field {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* This is to style the button of the button area */
+    .btn-field button {
+        flex-basis: 48%;
+        background: rgb(252, 193, 203);
+        color: #fff;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: background 1s;
+        font-family: 'Handlee', cursive;
+    }
+    /* This is to style all those in input-group */
+    .input-group {
+        height: 280px;
+    }
+    /* This is to style the button that is not chosen */
+    .btn-field button.disable {
+        background: #eaeaea;
+        color: #555;
+    }
+    /* This is to style the errors of the form */
+    .input-group span {
+        position: absolute;
+        right: 70px;
+        font-size: 14px;
+        color: red;
+    }
+    /* This is to style the submit error of the form #notworking*/
+    #submit-error {
+        color: red;
+        position: absolute;
+        bottom: 30px;
+        left: 230px;
+    }
+    /* STYLING FOR ACCOUNT PAGE */
 
 
-/* STYLING FOR MULTIPLE PAGES */
-/* This is to add the fade in animation to chosen classes or ids */
-@keyframes fadeIn {
-    0% {opacity: 0; }
-    100% {opacity: 1; }
-}
-/* This is to style the footer of every page */
-#info a{
-    margin: 180px;
-    font-size: 20px;
-}
-/* This is to style the albums pictures in music page and merchandise pictures in merchandise page */
-.row {
-    display: flex;
-    justify-content: center;
-    animation: fadeIn 2s;
-}
-/* This is to style the container */
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* This is to style the container2 */
-.container2 {
-    display: flex;
-    align-items: center;
-}
-/* This is to style the video in the container */
-.container iframe {
-    margin-right: 10px;
-}
-/* This is to style the title of merchandise, profile and music page */
-#title {
-    text-align: center;
-    font-size: 40px;
-}
-/* This is to style the horizontal lines */
-hr {
-    margin-top: 70px;
-}
-/* This is to style the background of every body */
-body {
-    background-color: white;
-}
-/* This is to style every div */
-div {
-    font-family: 'Handlee', cursive;
-}
-/* This is to style the header of the website */
-#mainwrapper header {
-    background-color: white;
-    overflow: auto;
-    font-style: normal;
-    font-weight: 400;     
-    position: fixed;
-    top: 0;
-    width: 100%;        
+    /* STYLING FOR MULTIPLE PAGES */
+    /* This is to add the fade in animation to chosen classes or ids */
+    @keyframes fadeIn {
+        0% {opacity: 0; }
+        100% {opacity: 1; }
+    }
+    /* This is to style the footer of every page */
+    #info a{
+        margin: 180px;
+        font-size: 20px;
+    }
+    /* This is to style the albums pictures in music page and merchandise pictures in merchandise page */
+    .row {
+        display: flex;
+        justify-content: center;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the container */
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* This is to style the container2 */
+    .container2 {
+        display: flex;
+        align-items: center;
+    }
+    /* This is to style the video in the container */
+    .container iframe {
+        margin-right: 10px;
+    }
+    /* This is to style the title of merchandise, profile and music page */
+    #title {
+        text-align: center;
+        font-size: 40px;
+    }
+    /* This is to style the horizontal lines */
+    hr {
+        margin-top: 70px;
+    }
+    /* This is to style the background of every body */
+    body {
+        background-color: white;
+    }
+    /* This is to style every div */
+    div {
+        font-family: 'Handlee', cursive;
+    }
+    /* This is to style the header of the website */
+    #mainwrapper header {
+        background-color: white;
+        font-style: normal;
+        font-weight: 400;     
+        position: fixed;
+        top: 0;
+        width: 100%;        
+    }
+
+    /* This is to style the contents of the website so that it is below the fixed header */
+    .content {
+        margin-top: 130px;
+    }
+    /* This is to style the header of the website when the mouse hover to the header */
+    #mainwrapper header:hover {
+        background-color: white;
+    }
+    /* This is to style the NewJeans Logo of the header of the website */
+    #mainwrapper header #logo1 {
+        width: 16%;
+        float: left;
+        padding-left: 1%;
+        padding-top: 12px;
+    }
+    /* This is to style the Bunnies Logo of the header of the website */
+    #mainwrapper header #logo2 {
+        width: 14%;
+        float: right;
+        padding-right: 1%;
+        padding-top: 12px;
+    }
+    /* This is to style the navigations of the header of the website */
+    #mainwrapper header nav {
+        text-align: left;
+        padding-top: 50px;
+        width: 1000px;
+        float: left;  
+        font-size: 25px;
+    } 
+    /* This is to style the account button of the header of the website */
+    #mainwrapper input{
+        width: 160px;
+        height: 50px;
+    }
+    /* This is to style the navigation link of the header of the website */
+    header nav a {
+        margin: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    /* This is also to style the account button of the header of the website */
+    nav input {
+        font-family: 'Handlee', cursive;
+        background-color: rgb(252, 193, 203);
+    }
+    /* STYLING FOR MULTIPLE PAGES */
 }
 
-/* This is to style the contents of the website so that it is below the fixed header */
-.content {
-    margin-top: 130px;
-}
-/* This is to style the header of the website when the mouse hover to the header */
-#mainwrapper header:hover {
-    background-color: white;
-}
-/* This is to style the NewJeans Logo of the header of the website */
-#mainwrapper header #logo1 {
-    width: 16%;
-    float: left;
-    padding-left: 1%;
-    padding-top: 12px;
-}
-/* This is to style the Bunnies Logo of the header of the website */
-#mainwrapper header #logo2 {
-    width: 14%;
-    float: right;
-    padding-right: 1%;
-    padding-top: 12px;
-}
-/* This is to style the navigations of the header of the website */
-#mainwrapper header nav {
-    text-align: left;
-    padding-top: 50px;
-    width: 1000px;
-    float: left;  
-    font-size: 25px;
-} 
-/* This is to style the account button of the header of the website */
-#mainwrapper input{
-    width: 160px;
-    height: 50px;
-    float: right;
-}
-/* This is to style the navigation link of the header of the website */
-header nav a {
-    margin: 30px;
-    text-decoration: none;
-    color: black;
-}
-/* This is also to style the account button of the header of the website */
-nav input {
-    font-family: 'Handlee', cursive;
-    background-color: rgb(252, 193, 203);
-}
-/* STYLING FOR MULTIPLE PAGES */
 
-
-/* STYLING FOR VIEWPORT */
+/* STYLING FOR MOBILE */
 @media screen and (max-width: 576px) {
     #mainwrapper header {
         width: 100%;
+        overflow-x: hidden;
+        background-color: white;
+        font-style: normal;
+        font-weight: 400;     
+        position: fixed;
+        top: 0;
     }
     header nav a{
         float: left;
         display: block;
         text-align: left;
         margin: 10px;
-    }
-    header input {
-        display: none;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
     }
     header #logo2 {
         display: none;
+        width: 14%;
+        float: right;
+        padding-right: 1%;
+        padding-top: 12px;
+    }
+    header #logo1 {
+        margin-left: 120px;
+        width: 16%;
+        float: left;
+        padding-left: 1%;
+        padding-top: 12px;
     }
     #pic1 {
-        width: 100%;
+        margin-top: 10px;
+        width: 1100px;
         height: auto;
+        animation: fadeIn 2s;
     }
+    .content {
+        margin-top: 240px;
+    }
+    .container {
+        display: block;
+    }
+    /* This is also to style the account button of the header of the website */
+    nav input {
+        font-family: 'Handlee', cursive;
+        background-color: rgb(252, 193, 203);
+    }
+    /* This is to style the account button of the header of the website */
+    #mainwrapper input{
+        width: 160px;
+        height: 50px;
+    }
+    /* This is to style the navigations of the header of the website */
+    #mainwrapper header nav {
+        text-align: left;
+        padding-top: 50px;
+        width: 600px;
+        float: left;  
+        font-size: 25px;
+    } 
+    /* This is to style the header of the website when the mouse hover to the header */
+    #mainwrapper header:hover {
+        background-color: white;
+    }
+    /* This is to add the fade in animation to chosen classes or ids */
+    @keyframes fadeIn {
+        0% {opacity: 0; }
+        100% {opacity: 1; }
+    }
+    /* This is to style the footer of every page */
+    #info a{
+        margin: 180px;
+        font-size: 20px;
+    }
+    /* This is to style the albums pictures in music page and merchandise pictures in merchandise page */
+    .row {
+        display: flex;
+        justify-content: center;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the container2 */
+    .container2 {
+        display: flex;
+        align-items: center;
+    }
+    /* This is to style the video in the container */
+    .container iframe {
+        margin-right: 10px;
+    }
+    /* This is to style the title of merchandise, profile and music page */
+    #title {
+        text-align: center;
+        font-size: 40px;
+    }
+    /* This is to style the horizontal lines */
+    hr {
+        margin-top: 70px;
+    }
+    /* This is to style the background of every body */
+    body {
+        background-color: white;
+    }
+    /* This is to style every div */
+    div {
+        font-family: 'Handlee', cursive;
+    }
+    /* STYLING FOR MULTIPLE PAGES */
+
+
+    /* STYLING FOR INDEX PAGE */
+    /* This is to style the introduction paragraph of the website */
+    .intropara {
+        font-size: 25px;
+    }
+    /* This is to style the NewJeans picture at the home page */
+    #pic1 {
+        margin-top: 10px;
+        width: 1100px;
+        height: auto;
+        animation: fadeIn 2s;
+    } 
+    /* This is to style the events box in the home page */
+    #eventsbox {
+        width: 1250px;
+        height: 450px;
+        border: 2px solid black;
+        float: right;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* This is to style the sidebar in the home page */
+    #sidebar {
+        width: 340px;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(252, 193, 203);
+        margin-left: 10px;
+        padding-bottom: 20px;
+        margin-top: 15px;
+        border: 1px solid black;
+        height: 675px;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the album pictures in the sidebar */
+    #sidebar #albumpic{
+        width: 100%;
+        margin-top: 23px;
+        float: center;
+        overflow: auto;
+        margin-left: 15px;
+    }
+    /* This is to style the words for sidebar in home page */
+    #sidebar #description{
+        text-align: center;
+        font-size: 20px;
+    }
+    /* This is to style the instagram icon in home page */
+    #instagram {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the twitter icon in home page */
+    #twitter {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the phoning icon in home page */
+    #phoning {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the youtube icon in home page */
+    #youtube {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the weverse icon in home page */
+    #weverse {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the facebook icon in home page */
+    #facebook {
+        height: 100px;
+        width: 100px;
+        font-size: 0px;
+    }
+    /* This is to style the social media icons in home page */
+    ul.icon li {
+        display: inline-block;
+        margin: 40px;
+        margin-right: 100px;
+        margin-top: 90px;
+    }
+    /* STYLING FOR INDEX PAGE */
+
+
+    /* STYLING FOR MUSIC PAGE */
+    /* This is to style the 1st music box in the music page */
+    #musicbox1 {
+        width: 410px;
+        height: 225px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    /* This is to style the list of songs for the 1st album */
+    #musicbox1 li {
+        text-align: center;
+        margin-right: 50px;
+    }
+    /* This is to style the words of the songs */
+    #musicbox1 a {
+        text-decoration: none;
+        color: black;
+    }
+    /* This is to style the 2nd music box in the music page */
+    #musicbox2 {
+        width: 410px;
+        height: 225px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    /* This is to style the list of songs for the 2nd album */
+    #musicbox2 li {
+        text-align: center;
+        margin-right: 40px;
+    }
+    /* This is to style the words of the songs */
+    #musicbox2 a {
+        text-decoration: none;
+        color: black;
+    }
+    /* This is to style the 3rd music box in the music page */
+    #musicbox3 {
+        width: 410px;
+        height: 225px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    /* This is to style the list of songs for the 3rd album */
+    #musicbox3 li {
+        text-align: center;
+        margin-right: 40px;
+    }
+    /* This is to style the words of the songs */
+    #musicbox3 li a{
+        text-decoration: none;
+        color: black;
+    }
+    /* This is to style the background for the album pictures in music page */
+    #musicbg {
+        width: 410px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(252, 193, 203);
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-inline: 55px;
+    }     
+    /* This is to style the 1st album picture in music page */
+    #musicbg #musicpic1 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the 2nd album picture in music page */
+    #musicbg #musicpic2 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the 3rd album picture in music page */
+    #musicbg #musicpic3 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the sub-titles of music page */
+    #spacingtitles2 {
+        text-align: center;
+        word-spacing: 450px;
+        animation: fadeIn 2s;
+    }
+    /* STYLING FOR MUSIC PAGE */
+
+
+    /* STYLING FOR PROFILE PAGE */
+    /* This is to style the 1st member box in the profile page */
+    #memberbox1 {
+        width: 410px;
+        height: 470px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 5px;
+        line-height: 1.3;
+    }
+    /* This is to style the 2nd member box in the profile page */
+    #memberbox2 {
+        width: 410px;
+        height: 470px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+        line-height: 1.3;
+    }
+    /* This is to style the 3rd member box in the profile page */
+    #memberbox3 {
+        width: 410px;
+        height: 470px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 130px;
+        line-height: 1.3;
+    }
+    /* This is to style the link for the 3rd member box */
+    #memberbox3 a {
+        text-decoration: none;
+    }
+    /* This is to style the 4th member box in the profile page */
+    #memberbox4 {
+        width: 430px;
+        height: 450px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 250px;
+        line-height: 1.3;
+    }
+    /* This is to style the 5th member box in the profile page */
+    #memberbox5 {
+        width: 430px;
+        height: 450px;
+        border: 1px solid white;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 140px;
+        line-height: 1.3;
+    }
+    /* This is to style the background of the member pictures in profile page */
+    #profilebg {
+        width: 410px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(252, 193, 203);
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-inline: 65px;
+    }     
+    /* This is to style the member pictures at the top in the profile page */
+    #profilebg #memberpic1 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    /* This is to style the member pictures at the bottom in the profile page */
+    #profilebg #memberpic2 {
+        width: 100%;
+        float: center;
+        overflow: auto;
+        padding-top: 20px;
+        margin-left: 15px;
+    }
+    /* STYLING FOR PROFILE PAGE */
+
+
+    /* STYLING FOR MERCHANDISE PAGE */
+    /* This is to style the 3 buttons at the bottom in the merchandise page */
+    .row2 {
+        display: flex;
+        justify-content: center;
+    }
+    /* This is to style the merchandise background */
+    .thumbnails {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    /* This is to style the merchandise images */
+    .thumbnails img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    /* This is to allow the merchandise items to be scrollable */
+    .slides {
+        display: grid;
+        grid-auto-flow: row;
+        gap: 1rem;
+        padding: 0 0.25rem;
+        padding-top: 10px;
+        height: 720px;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        background-color: white;
+        margin-inline: 40px;
+    }
+    /* This is to locate where the scrolling start */
+    .slides > div {
+        scroll-snap-align: start;
+    }
+    /* This is also to style the merchandise images */
+    .slides img {
+        width: 400px;
+        object-fit: contain;
+    }
+    /* This is to for the scrolling in merchandise page */
+    .slides::-webkit-scrollbar {
+        display: none;
+    }
+    /* This is to style the sub-titles of merchandise page */
+    #spacingtitles {
+        word-spacing: 370px;
+        text-align: center;
+        margin-left: 20px;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the buttons at the bottom of the merchandise page */
+    .row2 input {
+        width: 400px;
+        height: 80px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Handlee', cursive;
+        background-color: rgb(252, 193, 203);
+    }
+    /* This is also to style the buttons at the bottom of the merchandise page */
+    .row2 a {
+        margin-inline: 45px;
+    }
+    /* STYLING FOR MERCHANDISE PAGE */
+
+
+    /* STYLING FOR ACCOUNT PAGE */
+    /* This is to style the container for the account page */
+    .container3 {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(252, 193, 203, 0.8),rgb(252, 193, 203, 0.8)), url(https://images.augustman.com/wp-content/uploads/sites/6/2023/09/27121918/Untitled-2023-09-27T112625.409.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        animation: fadeIn 2s;
+    }
+    /* This is to style the form */
+    .form-box {
+        width: 90%;
+        max-width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #fff;
+        padding: 50px 60px 70px;
+        text-align: center;
+    }
+    /* This is to style the title of the form */
+    .form-box h1 {
+        font-size: 30px;
+        margin-bottom: 60px;
+        color: rgb(252, 193, 203);
+        position: relative;
+    }
+    /* This is to style the line below the title of the form */
+    .form-box h1::after {
+        content: '';
+        width: 30px;
+        height: 4px;
+        border-radius: 3px;
+        background: rgb(252, 193, 203);
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* This is to style the input field of the form */
+    .input-field {
+        background: #eaeaea;
+        margin: 15px 0;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        max-height: 65px;
+        transition: max-height 0.5s;
+        overflow: hidden;
+    }
+    /* This is to style the inputs of the input field of the form */
+    .input-field input {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 18px 15px;
+        font-family: 'Handlee', cursive;
+    }
+    /* This is also to style the form */
+    .input-field i {
+        margin-left: 15px;
+        color: #999;
+    }
+    /* This is to style the 'Lost Password' */
+    form p {
+        text-align: left;
+        font-size: 13px;
+    }
+    /* This is to style the 'Click Here!' */
+    form p a {
+        text-decoration: none;
+        color: rgb(252, 193, 203);
+    }
+    /* This is to style the submit area */
+    .submit-field {
+        margin-top: 20px;
+    }
+    /* This is to style the button of the submit area */
+    .submit-field button {
+        background-color: rgb(252, 193, 203);
+        outline: 0;
+        color: white;
+        height: 30px;
+        font-family: 'Handlee', cursive;
+    }
+    /* This is to style the button area */
+    .btn-field {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* This is to style the button of the button area */
+    .btn-field button {
+        flex-basis: 48%;
+        background: rgb(252, 193, 203);
+        color: #fff;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: background 1s;
+        font-family: 'Handlee', cursive;
+    }
+    /* This is to style all those in input-group */
+    .input-group {
+        height: 280px;
+    }
+    /* This is to style the button that is not chosen */
+    .btn-field button.disable {
+        background: #eaeaea;
+        color: #555;
+    }
+    /* This is to style the errors of the form */
+    .input-group span {
+        position: absolute;
+        right: 70px;
+        font-size: 14px;
+        color: red;
+    }
+    /* This is to style the submit error of the form #notworking*/
+    #submit-error {
+        color: red;
+        position: absolute;
+        bottom: 30px;
+        left: 230px;
+    }
+    /* STYLING FOR ACCOUNT PAGE */
 }
