@@ -8,8 +8,6 @@ For this project, I am creating a Newjeans website for users or fans to use it o
 
 For the design process, I want my website to be focusing on NewJeans fans, regardless if they are a new Bunnie (Bunnie is the fandom name of NewJeans) or not. In a Korean Pop group website, fans and users would want to know more about the members. It could be about the members itself or maybe their lifestyles. Through my website, fans and users will be able to do so.
 
-**Link for wireframe
-
 If I am a user, I would want the website to have a home page with their pictures, albums, videos. Also, I would want a page about the members so I am able to know more about them. Moreover, there should be pages to promote their music and merchandise. In addition, it will be great if I am able to sign up an account in the website.
 
 ## Features
@@ -31,24 +29,28 @@ In this section, I will be talking about the features in my project
 
 - Feature 1 - Pictures of the group members to see
 - Feature 2 - Details of the group members for users to know more about them
+- Feature 3 - Users will see fade in animation when they enter the page
 
 #### Music page (music.html)
 
 - Feature 1 - Pictures of the albums for users to see. When users click on the image, they will be brought to a weverse shop where they can buy the albums
 - Feature 2 - Songs of the albums for users to know. When users click on a specific song, they will be brought to the music video of that song in youtube
+- Feature 3 - Users will see fade in animation when they enter the page
 
 #### Merchandise page (merchandise.html)
 
 - Feature 1 - Albums/DVD for users to see. When users click on the image, they will be brought to a weverse shop where they can buy the albums
 - Feature 2 - Merch available for users to buy. When users click on the image, they will be brought to a weverse shop where they can buy the merch
--Feature 3 - A membership-kit available for fans. When users click on the image, they will be brought to a weverse shop where they can buy the membership-kit
--Feature 4 - The 3 features stated above is scrollable
--Feature 5 - There are 3 buttons for users to press. 'See More Albums' brings the user to a weverse shop to see all the albums that are in stocked. 'See More Merch' brings the user to a weverse shop to see all the merch that are in stocked. 'See More Kits' brings the user to a weverse shop to see all the membership-kits that are in stocked
+- Feature 3 - A membership-kit available for fans. When users click on the image, they will be brought to a weverse shop where they can buy the membership-kit
+- Feature 4 - The 3 features stated above is scrollable
+- Feature 5 - There are 3 buttons for users to press. 'See More Albums' brings the user to a weverse shop to see all the albums that are in stocked. 'See More Merch' brings the user to a weverse shop to see all the merch that are in stocked. 'See More Kits' brings the user to a weverse shop to see all the membership-kits that are in stocked
+- Feature 6 - Users will see fade in animation when they enter the page
 
 #### Account page (account.html)
 
--Feature 1 - A background image of the group
--Feature 2 - Sign up form for users to sign up
+- Feature 1 - A background image of the group
+- Feature 2 - Sign up form for users to sign up
+- Feature 3 - Users will see fade in animation when they enter the page
 
 ### Features Left to Implement
 
