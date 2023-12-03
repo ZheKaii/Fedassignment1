@@ -186,6 +186,10 @@
         overflow: auto;
         padding-top: 20px;
     }
+    #musicpic1 img {
+        width: 400px;
+        height: 400px;
+    }
     /* This is to style the 2nd album picture in music page */
     #musicbg #musicpic2 {
         width: 100%;
@@ -193,12 +197,20 @@
         overflow: auto;
         padding-top: 20px;
     }
+    #musicpic2 img {
+        width: 400px;
+        height: 400px;
+    }
     /* This is to style the 3rd album picture in music page */
     #musicbg #musicpic3 {
         width: 100%;
         float: center;
         overflow: auto;
         padding-top: 20px;
+    }
+    #musicpic3 img {
+        width: 400px;
+        height: 400px;
     }
     /* This is to style the sub-titles of music page */
     #spacingtitles2 {
@@ -853,11 +865,11 @@
     /* STYLING FOR MUSIC PAGE */
     /* This is to style the 1st music box in the music page */
     #musicbox1 {
-        width: 410px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
         border: 1px solid white;
         text-align: center;
-        font-size: 27px;
+        font-size: 15px;
         margin-top: 10px;
         margin-left: 5px;
     }
@@ -873,13 +885,13 @@
     }
     /* This is to style the 2nd music box in the music page */
     #musicbox2 {
-        width: 410px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
         border: 1px solid white;
         text-align: center;
-        font-size: 27px;
+        font-size: 15px;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 10px;
     }
     /* This is to style the list of songs for the 2nd album */
     #musicbox2 li {
@@ -893,13 +905,13 @@
     }
     /* This is to style the 3rd music box in the music page */
     #musicbox3 {
-        width: 410px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
         border: 1px solid white;
         text-align: center;
-        font-size: 27px;
+        font-size: 15px;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 10px;
     }
     /* This is to style the list of songs for the 3rd album */
     #musicbox3 li {
@@ -919,7 +931,7 @@
         background-color: rgb(252, 193, 203);
         padding-bottom: 15px;
         margin-top: 10px;
-        margin-inline: 55px;
+        margin-inline: 5px;
     }     
     /* This is to style the 1st album picture in music page */
     #musicbg #musicpic1 {
@@ -928,12 +940,20 @@
         overflow: auto;
         padding-top: 20px;
     }
+    #musicpic1 img {
+        width: 160px;
+        height: 160px;
+    }
     /* This is to style the 2nd album picture in music page */
     #musicbg #musicpic2 {
         width: 100%;
         float: center;
         overflow: auto;
         padding-top: 20px;
+    }
+    #musicpic2 img {
+        width: 160px;
+        height: 160px;
     }
     /* This is to style the 3rd album picture in music page */
     #musicbg #musicpic3 {
@@ -942,10 +962,14 @@
         overflow: auto;
         padding-top: 20px;
     }
+    #musicpic3 img {
+        width: 160px;
+        height: 160px;
+    }
     /* This is to style the sub-titles of music page */
     #spacingtitles2 {
         text-align: center;
-        word-spacing: 450px;
+        word-spacing: 90px;
         animation: fadeIn 2s;
     }
     /* STYLING FOR MUSIC PAGE */
